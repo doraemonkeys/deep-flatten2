@@ -1,0 +1,27 @@
+[package]
+name = "deep-flatten2"
+license = "MIT"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ricky"]
+description = "Useful utility for deep flattening nested Options and Result."
+repository = "https://github.com/doraemonkeys/deep-flatten2"
+homepage = "https://github.com/doraemonkeys/deep-flatten2"
+documentation = "https://docs.rs/deep-flatten2"
+readme = "README.md"
+keywords = [
+    "deep",
+    "all",
+    "flatten",
+    "nested",
+    "options",
+    "result",
+    "convert",
+    "utility",
+]
+
+
+[dependencies]
+deep-flatten = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

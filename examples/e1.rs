@@ -1,18 +1,5 @@
-# deep-flatten2
-
-A Rust utility crate for deep flattening nested `Option` and `Result` types.
-
-## Installation
-
-```shell
-cargo add deep-flatten2
-```
-
-
-## Example
-
-```rust
-use deep_flatten2::{OptionDeepFlatten, ResultDeepOk};
+use deep_flatten2::OptionDeepFlatten;
+use deep_flatten2::ResultDeepOk;
 
 fn main() {
     let x: Result<Result<i32, &str>, &str> = Ok(Ok(1));
@@ -26,5 +13,3 @@ fn main() {
 
     assert_eq!(flattened, Some(()));
 }
-```
-
