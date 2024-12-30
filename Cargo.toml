@@ -9,16 +9,7 @@ repository = "https://github.com/doraemonkeys/deep-flatten2"
 homepage = "https://github.com/doraemonkeys/deep-flatten2"
 documentation = "https://docs.rs/deep-flatten2"
 readme = "README.md"
-keywords = [
-    "deep",
-    "all",
-    "flatten",
-    "nested",
-    "options",
-    "result",
-    "convert",
-    "utility",
-]
+keywords = ["flatten", "nested", "options", "result", "convert"]
 
 
 [dependencies]
